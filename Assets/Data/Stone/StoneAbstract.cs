@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class StoneAbstract : AllBeh
+public abstract class StoneAbstract : Main
 {
     [SerializeField] protected StoneCtrl stoneCtr;
     public StoneCtrl StoneCtr { get => stoneCtr; }

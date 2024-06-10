@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class ItemAbtract : AllBeh
+public abstract class ItemAbtract : Main
 {
     [SerializeField] protected ItemCtrl itemCtr;
     public ItemCtrl ItemCtr { get => itemCtr; }

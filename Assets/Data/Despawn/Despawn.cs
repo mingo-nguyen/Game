@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Despawn : AllBeh
+public abstract class Despawn : Main
 {
     protected virtual void FixedUpdate()
     {

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletAbstract : AllBeh
+public class BulletAbstract : Main
 {
     [SerializeField] protected BulletCtrl bullCtrl;
     public BulletCtrl BullCtrl { get=> bullCtrl;}

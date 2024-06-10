@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ctrl : AllBeh
+public class Ctrl : Main
 {
     [SerializeField] protected StoneSpawner stoneSpaw;
 

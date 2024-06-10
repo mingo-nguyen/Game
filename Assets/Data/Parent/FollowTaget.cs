@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FollowTaget : AllBeh
+public class FollowTaget : Main
 {
     [SerializeField] protected Transform target;
     [SerializeField] protected float speed = 3f;

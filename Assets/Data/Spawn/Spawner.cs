@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Spawner : AllBeh
+public abstract class Spawner : Main
 {
     [SerializeField] protected Transform holder;
     [SerializeField] protected int spawnedCount = 0;

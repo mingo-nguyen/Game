@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObjectFly : AllBeh
+public class ObjectFly : Main
 {
     // Start is called before the first frame update
     [SerializeField] protected int speedMove = 20;

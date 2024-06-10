@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletCtrl : AllBeh
+public class BulletCtrl : Main
 {
     [SerializeField] protected DamegeSender damageSender;
     public DamegeSender DamageSender { get => damageSender; }

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StoneCtrl : AllBeh
+public class StoneCtrl : Main
 {
     [SerializeField] protected Transform model;
     public Transform Model { get => model; }

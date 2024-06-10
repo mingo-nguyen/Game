@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.IO.LowLevel.Unsafe;
 using UnityEngine;
 
-public class AllBeh : MonoBehaviour
+public class Main : MonoBehaviour
 {
     // Start is called before the first frame update
     protected virtual void Reset()

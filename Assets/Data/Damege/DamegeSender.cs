@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DamegeSender : AllBeh
+public class DamegeSender : Main
 {
     [SerializeField] protected int damage = 1;
 

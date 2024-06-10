@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DamegeReceive : AllBeh
+public class DamegeReceive : Main
 {
     [Header("Damage Receiver")]
     [SerializeField] protected SphereCollider sphereCollider;

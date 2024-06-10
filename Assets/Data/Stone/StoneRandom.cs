@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StoneRandom : AllBeh
+public class StoneRandom : Main
 {
 
     [SerializeField] protected Ctrl ctrl;

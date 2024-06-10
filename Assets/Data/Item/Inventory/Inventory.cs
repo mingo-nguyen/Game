@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Inventory : AllBeh
+public class Inventory : Main
 {
 
     [SerializeField] protected int maxSlot = 70;

@@ -6,7 +6,7 @@ using static UnityEngine.RuleTile.TilingRuleOutput;
 
 [RequireComponent(typeof(SphereCollider))]
 [RequireComponent(typeof(Rigidbody))]
-public class ItemLooter : AllBeh
+public class ItemLooter : Main
 {
     [SerializeField] protected Inventory inventory;
     [SerializeField] protected SphereCollider _collider;
@@ -48,7 +48,7 @@ public class ItemLooter : AllBeh
     protected virtual void OnTriggerEnter(Collider collider)
     {
         Debug.Log("touched");
-        SceneManager.LoadScene("GameOver");
+        //SceneManager.LoadScene("GameOver");
 
         ItemPickupable itemPickupable = collider.GetComponent<ItemPickupable>();
         if (itemPickupable == null) return;

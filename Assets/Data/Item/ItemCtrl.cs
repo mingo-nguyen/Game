@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ItemCtrl : AllBeh
+public class ItemCtrl : Main
 {
     [SerializeField] protected ItemDespawn itemDespawn;
     public ItemDespawn ItemDespawn => itemDespawn;

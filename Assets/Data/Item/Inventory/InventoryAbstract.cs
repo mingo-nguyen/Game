@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InventoryAbstract : AllBeh
+public class InventoryAbstract : Main
 {
     [SerializeField] protected Inventory inventory;
     public Inventory Inventory { get => inventory; }

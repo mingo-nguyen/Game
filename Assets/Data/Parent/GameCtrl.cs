@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameCtrl : AllBeh
+public class GameCtrl : Main
 {
     
    private static GameCtrl instance;
